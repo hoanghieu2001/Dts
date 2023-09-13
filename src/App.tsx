@@ -199,7 +199,7 @@ class App extends Component {
               <h3>{algorithm}</h3>
               <ul>
                 {sortedArrays[index]?.map((item, i) => (
-                  // Kiểm tra trước khi lặp qua sortedArray
+                  // Kiểm tra trước khi lặp qua sortedArrays
                   <li key={i}>{item}</li>
                 ))}
               </ul>
