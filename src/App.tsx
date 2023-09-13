@@ -63,7 +63,7 @@ class App extends Component {
         }
       }
 
-      // Hoán đổi phần tử nhỏ nhất với phần tử đầu tiên của phần chưa được sắp xếp
+      // Hoán đổi phần tử nhỏ nhất với phần tử đầu tiên của phần chưa được sắp xếp 
       const temp = arr[i];
       arr[i] = arr[minIndex];
       arr[minIndex] = temp;
@@ -199,7 +199,7 @@ class App extends Component {
               <h3>{algorithm}</h3>
               <ul>
                 {sortedArrays[index]?.map((item, i) => (
-                  // Kiểm tra trước khi lặp qua sortedArrays
+                  // Kiểm tra trước khi lặp qua sortedArray
                   <li key={i}>{item}</li>
                 ))}
               </ul>
